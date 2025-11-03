@@ -7,7 +7,7 @@ public class Bill3
       String name3 = args[2];
       double bill = Double.parseDouble(args[3]);
       double priceForEach = Math.ceil(bill/3);
-      System.out.println("dear " + name3 + ", " + name2 + ", " + name1 + 
+      System.out.println("Dear " + name3 + ", " + name2 + ", and " + name1 + 
                          ": pay " + priceForEach + " Shekels each");
    }
 }
